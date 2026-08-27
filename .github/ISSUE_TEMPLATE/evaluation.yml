@@ -1,0 +1,32 @@
+# SPDX-FileCopyrightText: 2026 Veraxis Protocol
+# SPDX-License-Identifier: CC-BY-4.0
+
+name: Evaluation / compatibility mapping
+description: Propose or discuss a pinned ICI/ICTS evaluation
+title: "[EVAL] "
+labels: ["evaluation"]
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: System / protocol and exact version
+    validations:
+      required: true
+  - type: input
+    id: profile
+    attributes:
+      label: ICI/ICTS profile/version
+    validations:
+      required: true
+  - type: textarea
+    id: joins
+    attributes:
+      label: Claimed joins and evidence
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Known limitations / unevaluated areas
+    validations:
+      required: true

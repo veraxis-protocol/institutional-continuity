@@ -1,0 +1,353 @@
+{
+  "manifest_type": "working-bootstrap-manifest",
+  "canonical_git_commit": null,
+  "canonical_git_tag": null,
+  "note": "This manifest describes the local bootstrap bytes before Git canonical freeze. Regenerate after the canonical commit/tag.",
+  "artifacts": [
+    {
+      "path": ".editorconfig",
+      "size": 268,
+      "sha256": "a96a52e21157a1d9592e5dbcb8c1a165112d927086d5998e213e085f6a95d83c"
+    },
+    {
+      "path": ".gitattributes",
+      "size": 184,
+      "sha256": "d041d338d02d1cee649e3bb99e20c6f3cf6c21b0b3bc0073859988fe0487b538"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "size": 287,
+      "sha256": "81f279ef09b6a325ccb8b1c34415e13b71367186bfdbaf7ab01803dcfd23072c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug.yml",
+      "size": 775,
+      "sha256": "c9c5ddbda7c8486fd77031f15274bfe7a0afcbe390cf9b978be1b1b8ec4d6e78"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "size": 343,
+      "sha256": "ad9c0af470e3e6a8a97df9ca1e55b2a83cfda2741eb24703f5722e9ba5d513ea"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/evaluation.yml",
+      "size": 764,
+      "sha256": "872ae68689b6a2f5400b89ce4696c9bbd696d918e6176d961594ffedc10e02fa"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/spec-change.yml",
+      "size": 895,
+      "sha256": "e13be932d8e8d2519157a129101a1e63dfc27a9f2761b0773b31251ed684a69b"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "size": 923,
+      "sha256": "2ec6eba500d5f5e0f9b7e3792db570f01970fb0b3658d001e27a425469047733"
+    },
+    {
+      "path": ".github/workflows/repo-integrity.yml",
+      "size": 460,
+      "sha256": "b02ef52606b261530d8e993f691d12e5559940a03be2063ce3f17dcc17a75052"
+    },
+    {
+      "path": ".gitignore",
+      "size": 242,
+      "sha256": "49310d8c04e982e8c896a61534050217b25c7b4335d4d284aff43163d665c9e9"
+    },
+    {
+      "path": "BOOTSTRAP-PUSH.md",
+      "size": 1456,
+      "sha256": "6a031feb6c3e314b0d00adcd0981b359845b4effdf92eca2c1b60b24fed18ae9"
+    },
+    {
+      "path": "BOOTSTRAP-TREE.txt",
+      "size": 2386,
+      "sha256": "bd762563ac85549a93905e827bbba41f97c5696f4c14677d27c3abbd983624c6"
+    },
+    {
+      "path": "CANONICAL-BYTE-AUTHORITY.md",
+      "size": 1564,
+      "sha256": "7cdb3e2f8f9b01b562183fe82932ebec1dc69f777380e37638764ed8761a3c02"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 788,
+      "sha256": "1b8b354537a0aea6cdcab09b481217f84afe1033d33db700784c9202964f6f1b"
+    },
+    {
+      "path": "CITATION.cff",
+      "size": 605,
+      "sha256": "041f32e7033775ae4b737ecbc41d84b66839214111381180f0d20a7b8878356a"
+    },
+    {
+      "path": "CLAIMS.md",
+      "size": 3676,
+      "sha256": "f83c9b72903b7fc8885cfa65cf0dd3514f4c5f5094f1c1dd6245613e9cf8822e"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "size": 987,
+      "sha256": "45be220217249adff37a0462c5d8c94eba389dc7beb0e468cf282ffa30abdb56"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 2590,
+      "sha256": "6ed8f44aa18e073dadbddee1f0a78b14392bf86ab7a7a2ce86d81c4d05751dcb"
+    },
+    {
+      "path": "DCO.txt",
+      "size": 1365,
+      "sha256": "dac2b0a921aaf4bcaf484dc082fbea072398bedecf5f1d4dcce7e122bbe5d2d5"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "size": 5539,
+      "sha256": "df206d84e1ba13f40b1f100ecca9e0c9e6cae03ce8b8711e65c95b3eb0b0dcf8"
+    },
+    {
+      "path": "LICENSE.md",
+      "size": 3571,
+      "sha256": "3bad7e9c2a394f186b02d68b5eea0a14dc588328c2263a51aed534852af559cb"
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "size": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "size": 551,
+      "sha256": "4b049c8200176fcd0a31ab851f341e17a905a9774733ada23801cf5cd53170c1"
+    },
+    {
+      "path": "Makefile",
+      "size": 199,
+      "sha256": "aac1c4ce412556a9928036913dfe4cfb61d6ef78c61510fea0eb4deb68289e19"
+    },
+    {
+      "path": "NOTICE",
+      "size": 475,
+      "sha256": "22c35345c2537351c231e0e5614b8af38f01483d4e011d296f55b69b45e1a6bf"
+    },
+    {
+      "path": "PATENTS.md",
+      "size": 2751,
+      "sha256": "294abaef9b8f62edd9bb692c7c9484ddeb277facc95ab1efb4e750d44b9c6488"
+    },
+    {
+      "path": "README.md",
+      "size": 14557,
+      "sha256": "1e3dddc8b51e0625b59bf99164005f7a319bafed7f32aab3c95971cf31abd334"
+    },
+    {
+      "path": "ROADMAP.md",
+      "size": 1517,
+      "sha256": "4674805807b7140aed868bbd5e2d218241e2e1a44bce65929bc64c4f720d1f0a"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1476,
+      "sha256": "2c0d620afdc4bd5e6526357f584760a11f649a2e22dc27dd6431e09cc1b778d9"
+    },
+    {
+      "path": "STATUS.md",
+      "size": 1607,
+      "sha256": "0d17362de56494799d9d82211af486f6cfb233d5b750a3195edd8c36d8c0ec75"
+    },
+    {
+      "path": "SUPPORT.md",
+      "size": 581,
+      "sha256": "5e9e8eae0c4c1717c29a1daeb26fbb218386b8533a2d49971fcbe103f1bcbbd3"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 454,
+      "sha256": "0f4ecc1fc8e7bbe9b2c94c461fa0d47cef08c35f793b311db240e29d9bdfd478"
+    },
+    {
+      "path": "TRADEMARKS.md",
+      "size": 2811,
+      "sha256": "fc30cf844b089d4f93d8b9708d9f4c695e544ea2ee976b99c98de349737e1f75"
+    },
+    {
+      "path": "VERSIONING.md",
+      "size": 1062,
+      "sha256": "e46744964a1be29cf0ad5a71c3e242e4043fd8db5a1954b4e6a5ea55bce9ef60"
+    },
+    {
+      "path": "benchmark/ICTS-SPEC.md",
+      "size": 2635,
+      "sha256": "3beea9102981557d4a8f0069756eafe222004a7ee469df524801a64a558e1b1f"
+    },
+    {
+      "path": "benchmark/PROFILE-CONTRACT.md",
+      "size": 1409,
+      "sha256": "6baebbf89e1a3ecc5ade1dc9501fd566c99ac16ff7a256ea8cc52141904a195e"
+    },
+    {
+      "path": "benchmark/README.md",
+      "size": 1342,
+      "sha256": "80dafbfc2b63ae404ccdc111ac2be60a248b4d297dc9ff01ddfbc7ad73be2121"
+    },
+    {
+      "path": "benchmark/REASON-CODE-REGISTRY.md",
+      "size": 1209,
+      "sha256": "14097d14f8d22a197c90b72306c860bb23ec4135893099bf9d7c1f7c0489bd4a"
+    },
+    {
+      "path": "benchmark/reference/README.md",
+      "size": 645,
+      "sha256": "d474791a2b6a21074d30cc12c70b6df3d6044a71689a2abb930d4845a04f5b04"
+    },
+    {
+      "path": "benchmark/schemas/icts-evaluation.schema.json",
+      "size": 2507,
+      "sha256": "0e53ca97a1c9ffa66c871ba627b70f26f68b3e859a5f4cf1f60afd7e0d3707de"
+    },
+    {
+      "path": "benchmark/schemas/icts-profile.schema.json",
+      "size": 1864,
+      "sha256": "5cc88a0433e9ba72295e37783fe69467e0db51e52deb318a3ec54a7ae2a4b425"
+    },
+    {
+      "path": "benchmark/vectors/README.md",
+      "size": 749,
+      "sha256": "dfa3acfe2dd8fe409430728e9bd228e1b4c65b243c1b0d517f3fb51e961fa809"
+    },
+    {
+      "path": "evaluations/README.md",
+      "size": 694,
+      "sha256": "7c91e32ef686e92627baf5ce8b09dcd023f764330eff5b6828b7d97765928fa8"
+    },
+    {
+      "path": "evaluations/TEMPLATE/README.md",
+      "size": 352,
+      "sha256": "7f8b19bc3a42145663237ff1f239b4b2963df7f865570ccb63b75474a35e4005"
+    },
+    {
+      "path": "evaluations/TEMPLATE/evaluation.json",
+      "size": 1331,
+      "sha256": "ed71e144866c66ade726c65d64c3053219d8ad7b6e0f112e060e774605271293"
+    },
+    {
+      "path": "evidence/README.md",
+      "size": 690,
+      "sha256": "bb0834d3c58383b31f5ec48e577de0e2605412838d134d67f00f5a580ebb9e05"
+    },
+    {
+      "path": "evidence/historical/README.md",
+      "size": 411,
+      "sha256": "410b1ccdcd0208ade952e72924522398c0df7043b01cdf1547f5bdd30986cf90"
+    },
+    {
+      "path": "formal/README.md",
+      "size": 700,
+      "sha256": "74857968d27a5d0af475dc1740590940035ac850e561d877870fc05f814174d8"
+    },
+    {
+      "path": "formal/lean/README.md",
+      "size": 463,
+      "sha256": "90d781d1fc379f0955716007defb43a5176e03add6450190b7cf60ca987af6c1"
+    },
+    {
+      "path": "formal/obligations/ICI-FORMAL-OBLIGATIONS.md",
+      "size": 1194,
+      "sha256": "29157811c8f67fc0404116c87d38cba70ef7703775ef3b53643905dfe11279bc"
+    },
+    {
+      "path": "interoperability/README.md",
+      "size": 584,
+      "sha256": "5cbfbac7d6e7e516a7b08272ca792c6dac62ec5e228fe5d750ba930365b97833"
+    },
+    {
+      "path": "interoperability/examples/README.md",
+      "size": 388,
+      "sha256": "8f7e006e7319ce5bcb20613f02f6f79cbfe4d90634afb58bade9faa9b29f1de5"
+    },
+    {
+      "path": "interoperability/handoffs/README.md",
+      "size": 595,
+      "sha256": "8617093b216eae6f742d4e09656d635d5ac13366f18931bbb0b68ce611067033"
+    },
+    {
+      "path": "interoperability/profiles/README.md",
+      "size": 574,
+      "sha256": "75599b9a964fb07b1c0566f0377e90e3c4c63e1d0eeaf9ff47a0ab0ca07f6194"
+    },
+    {
+      "path": "landscape/README.md",
+      "size": 738,
+      "sha256": "5ab42578dd83e14c58f935e8202d7e18dfde06b7622e01b596950e8768c8e457"
+    },
+    {
+      "path": "landscape/mappings/README.md",
+      "size": 412,
+      "sha256": "2bdcc29d157cf3a8339aa0cd567b1754695c939f82738771e32192a34f1f9d8f"
+    },
+    {
+      "path": "releases/README.md",
+      "size": 750,
+      "sha256": "f2b1e1bca0635a80bc5d39504b7c7f52f1aa90167346c56f345917748cba2f02"
+    },
+    {
+      "path": "releases/RELEASE-MANIFEST.schema.json",
+      "size": 1423,
+      "sha256": "67a44e0d32976e140abaf4d7f524b3b5df54d5f9a4e905b363eccdf65d186c1c"
+    },
+    {
+      "path": "spec/AUTHORITY-PLANES.md",
+      "size": 1417,
+      "sha256": "02d86505e0f668fcde2193a2f8c8b58ccd82ac13ef6ad546c74bff0e5d34a720"
+    },
+    {
+      "path": "spec/CANONICAL-CHAIN.md",
+      "size": 1752,
+      "sha256": "466e70e23db9314eec6165343f30cf2179c6e53e6326fd254bbfe4c55202f513"
+    },
+    {
+      "path": "spec/CATEGORY-CONSTITUTION.md",
+      "size": 2157,
+      "sha256": "9c93d7b10ed67a9a05b5219629e8703624cc456f7014c762fda735e8fe54c48d"
+    },
+    {
+      "path": "spec/CHANGE-CONTROL.md",
+      "size": 1042,
+      "sha256": "9c95294eec867eb14949b0c51ae0a960d28245530f122b38b09cdbc944989af5"
+    },
+    {
+      "path": "spec/INVARIANTS.md",
+      "size": 2994,
+      "sha256": "f65d6ea20a22802c3c4bca8438a70d4ae8d24db4afc8da0d3c287b0f55eb2c84"
+    },
+    {
+      "path": "spec/NORMATIVE-LANGUAGE.md",
+      "size": 570,
+      "sha256": "321d464ec4dd892e2d180c700c65e7e7aef825450075db536a770e0b0389c69f"
+    },
+    {
+      "path": "spec/ONTOLOGY.json",
+      "size": 1296,
+      "sha256": "19e17433d3d72ac6081addbcf8400cf2fa63821f4dd4b25703753326cc8b0cae"
+    },
+    {
+      "path": "spec/STATUS-VOCABULARY.md",
+      "size": 1284,
+      "sha256": "bd2798b1049df5613f02870838c7f2add37d3ecfb9c3185f4b4e57062abdd800"
+    },
+    {
+      "path": "tools/make_manifest.py",
+      "size": 1226,
+      "sha256": "e8c7611b52ceeaf124a92006dac3c0efbe853254886c56995abffb4c51478240"
+    },
+    {
+      "path": "tools/validate_repo.py",
+      "size": 2709,
+      "sha256": "cc8bb8398d3532c4e17ba475508dbb82a48ec3de7c5bd924dfac58631d5fcd7d"
+    }
+  ]
+}

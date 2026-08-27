@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Veraxis Protocol
+# SPDX-License-Identifier: CC-BY-4.0
+
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary

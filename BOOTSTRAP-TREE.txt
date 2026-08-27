@@ -1,0 +1,94 @@
+├── .editorconfig
+├── .gitattributes
+├── .github/
+  ├── CODEOWNERS
+  ├── ISSUE_TEMPLATE/
+    ├── bug.yml
+    ├── config.yml
+    ├── evaluation.yml
+    ├── spec-change.yml
+  ├── PULL_REQUEST_TEMPLATE.md
+  ├── workflows/
+    ├── repo-integrity.yml
+├── .gitignore
+├── BOOTSTRAP-MANIFEST.json
+├── BOOTSTRAP-PUSH.md
+├── BOOTSTRAP-SHA256SUMS.txt
+├── CANONICAL-BYTE-AUTHORITY.md
+├── CHANGELOG.md
+├── CITATION.cff
+├── CLAIMS.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── DCO.txt
+├── GOVERNANCE.md
+├── LICENSE.md
+├── LICENSES/
+  ├── Apache-2.0.txt
+  ├── CC-BY-4.0.txt
+├── MAINTAINERS.md
+├── Makefile
+├── NOTICE
+├── PATENTS.md
+├── README.md
+├── ROADMAP.md
+├── SECURITY.md
+├── STATUS.md
+├── SUPPORT.md
+├── THIRD_PARTY_NOTICES.md
+├── TRADEMARKS.md
+├── VERSIONING.md
+├── benchmark/
+  ├── ICTS-SPEC.md
+  ├── PROFILE-CONTRACT.md
+  ├── README.md
+  ├── REASON-CODE-REGISTRY.md
+  ├── reference/
+    ├── README.md
+  ├── schemas/
+    ├── icts-evaluation.schema.json
+    ├── icts-profile.schema.json
+  ├── vectors/
+    ├── README.md
+├── evaluations/
+  ├── README.md
+  ├── TEMPLATE/
+    ├── README.md
+    ├── evaluation.json
+├── evidence/
+  ├── README.md
+  ├── historical/
+    ├── README.md
+├── formal/
+  ├── README.md
+  ├── lean/
+    ├── README.md
+  ├── obligations/
+    ├── ICI-FORMAL-OBLIGATIONS.md
+├── interoperability/
+  ├── README.md
+  ├── examples/
+    ├── README.md
+  ├── handoffs/
+    ├── README.md
+  ├── profiles/
+    ├── README.md
+├── landscape/
+  ├── README.md
+  ├── mappings/
+    ├── README.md
+├── releases/
+  ├── README.md
+  ├── RELEASE-MANIFEST.schema.json
+├── spec/
+  ├── AUTHORITY-PLANES.md
+  ├── CANONICAL-CHAIN.md
+  ├── CATEGORY-CONSTITUTION.md
+  ├── CHANGE-CONTROL.md
+  ├── INVARIANTS.md
+  ├── NORMATIVE-LANGUAGE.md
+  ├── ONTOLOGY.json
+  ├── STATUS-VOCABULARY.md
+├── tools/
+  ├── make_manifest.py
+  ├── validate_repo.py

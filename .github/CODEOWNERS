@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Veraxis Protocol
+# SPDX-License-Identifier: CC-BY-4.0
+
+* @veraxis-protocol
+/spec/ @veraxis-protocol
+/benchmark/ @veraxis-protocol
+/GOVERNANCE.md @veraxis-protocol
+/LICENSE.md @veraxis-protocol
+/PATENTS.md @veraxis-protocol
+/TRADEMARKS.md @veraxis-protocol

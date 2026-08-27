@@ -1,0 +1,34 @@
+# SPDX-FileCopyrightText: 2026 Veraxis Protocol
+# SPDX-License-Identifier: CC-BY-4.0
+
+name: Normative specification change
+description: Propose a change to ICI/ICTS semantics
+title: "[SPEC] "
+labels: ["spec"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What exact ambiguity, failure, or interoperability problem exists?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed normative text
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility and benchmark impact
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Identify primary sources, experiments, proofs, or other evidence and their limits.
+    validations:
+      required: true

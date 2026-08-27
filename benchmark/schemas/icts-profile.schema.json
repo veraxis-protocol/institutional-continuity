@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/veraxis-protocol/institutional-continuity/benchmark/schemas/icts-profile.schema.json",
+  "title": "ICTS Compatibility Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "profile_id",
+    "version",
+    "ici_version",
+    "icts_version",
+    "required_joins",
+    "bounded_permitted"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ici_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "icts_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "required_joins": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "const": "J1"
+        },
+        {
+          "const": "J2"
+        },
+        {
+          "const": "J3"
+        },
+        {
+          "const": "J4"
+        },
+        {
+          "const": "J5"
+        },
+        {
+          "const": "J6"
+        },
+        {
+          "const": "J7"
+        },
+        {
+          "const": "J8"
+        }
+      ],
+      "items": false,
+      "minItems": 8,
+      "maxItems": 8
+    },
+    "bounded_permitted": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "J1": {
+          "type": "boolean"
+        },
+        "J2": {
+          "type": "boolean"
+        },
+        "J3": {
+          "type": "boolean"
+        },
+        "J4": {
+          "type": "boolean"
+        },
+        "J5": {
+          "type": "boolean"
+        },
+        "J6": {
+          "type": "boolean"
+        },
+        "J7": {
+          "type": "boolean"
+        },
+        "J8": {
+          "type": "boolean"
+        }
+      }
+    },
+    "offline_examination_required": {
+      "type": "boolean"
+    }
+  }
+}

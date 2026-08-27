@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Institutional Continuity Infrastructure Canonical Ontology",
+  "version": "0.1.0-pre",
+  "license": "CC-BY-4.0",
+  "canonical_chain": [
+    "SOURCE",
+    "ADMITTED_MEANING",
+    "WARRANTED_CONTROL",
+    "RUNTIME_AUTHORITY",
+    "EXACT_ACTION",
+    "CONSEQUENCE",
+    "INDEPENDENT_OBSERVATION",
+    "RECONCILIATION",
+    "EXAMINATION"
+  ],
+  "joins": [
+    {
+      "id": "J1",
+      "from": "SOURCE",
+      "to": "ADMITTED_MEANING"
+    },
+    {
+      "id": "J2",
+      "from": "ADMITTED_MEANING",
+      "to": "WARRANTED_CONTROL"
+    },
+    {
+      "id": "J3",
+      "from": "WARRANTED_CONTROL",
+      "to": "RUNTIME_AUTHORITY"
+    },
+    {
+      "id": "J4",
+      "from": "RUNTIME_AUTHORITY",
+      "to": "EXACT_ACTION"
+    },
+    {
+      "id": "J5",
+      "from": "EXACT_ACTION",
+      "to": "CONSEQUENCE"
+    },
+    {
+      "id": "J6",
+      "from": "CONSEQUENCE",
+      "to": "INDEPENDENT_OBSERVATION"
+    },
+    {
+      "id": "J7",
+      "from": "INDEPENDENT_OBSERVATION",
+      "to": "RECONCILIATION"
+    },
+    {
+      "id": "J8",
+      "from": "RECONCILIATION",
+      "to": "EXAMINATION"
+    }
+  ],
+  "full_ici_required_joins": [
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "J7",
+    "J8"
+  ]
+}

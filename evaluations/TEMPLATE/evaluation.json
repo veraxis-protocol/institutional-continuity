@@ -1,0 +1,62 @@
+{
+  "subject": {
+    "name": "EXAMPLE-SYSTEM",
+    "version": "0.0.0"
+  },
+  "profile": "EXAMPLE-PROFILE@0.0.0",
+  "joins": [
+    {
+      "id": "J1",
+      "status": "NOT_EVALUATED",
+      "reason_code": "NOT_EVALUATED_TEMPLATE",
+      "evidence": []
+    },
+    {
+      "id": "J2",
+      "status": "NOT_EVALUATED",
+      "reason_code": "NOT_EVALUATED_TEMPLATE",
+      "evidence": []
+    },
+    {
+      "id": "J3",
+      "status": "NOT_EVALUATED",
+      "reason_code": "NOT_EVALUATED_TEMPLATE",
+      "evidence": []
+    },
+    {
+      "id": "J4",
+      "status": "NOT_EVALUATED",
+      "reason_code": "NOT_EVALUATED_TEMPLATE",
+      "evidence": []
+    },
+    {
+      "id": "J5",
+      "status": "NOT_EVALUATED",
+      "reason_code": "NOT_EVALUATED_TEMPLATE",
+      "evidence": []
+    },
+    {
+      "id": "J6",
+      "status": "NOT_EVALUATED",
+      "reason_code": "NOT_EVALUATED_TEMPLATE",
+      "evidence": []
+    },
+    {
+      "id": "J7",
+      "status": "NOT_EVALUATED",
+      "reason_code": "NOT_EVALUATED_TEMPLATE",
+      "evidence": []
+    },
+    {
+      "id": "J8",
+      "status": "NOT_EVALUATED",
+      "reason_code": "NOT_EVALUATED_TEMPLATE",
+      "evidence": []
+    }
+  ],
+  "overall_status": "NOT_EVALUATED",
+  "evidence_class": "E7",
+  "criteria_digest": null,
+  "vector_set_digest": null,
+  "result_digest": null
+}

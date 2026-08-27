@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/veraxis-protocol/institutional-continuity/benchmark/schemas/icts-evaluation.schema.json",
+  "title": "ICTS Evaluation Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "subject",
+    "profile",
+    "joins",
+    "overall_status",
+    "evidence_class"
+  ],
+  "properties": {
+    "subject": {
+      "type": "object",
+      "required": [
+        "name",
+        "version"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "profile": {
+      "type": "string",
+      "minLength": 1
+    },
+    "joins": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "status",
+          "reason_code",
+          "evidence"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "enum": [
+              "J1",
+              "J2",
+              "J3",
+              "J4",
+              "J5",
+              "J6",
+              "J7",
+              "J8"
+            ]
+          },
+          "status": {
+            "enum": [
+              "ESTABLISHED",
+              "ESTABLISHED_BOUNDED",
+              "NOT_ESTABLISHED",
+              "REFUTED",
+              "NOT_EVALUATED",
+              "NOT_APPLICABLE",
+              "INDETERMINATE"
+            ]
+          },
+          "reason_code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "overall_status": {
+      "enum": [
+        "ESTABLISHED",
+        "ESTABLISHED_BOUNDED",
+        "NOT_ESTABLISHED",
+        "REFUTED",
+        "NOT_EVALUATED",
+        "INDETERMINATE"
+      ]
+    },
+    "evidence_class": {
+      "enum": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "criteria_digest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "vector_set_digest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "result_digest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

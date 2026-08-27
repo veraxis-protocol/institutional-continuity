@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2026 Veraxis Protocol
+# SPDX-License-Identifier: CC-BY-4.0
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+*.zip
+.env
+.env.*
+!.env.example
