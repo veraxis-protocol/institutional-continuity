@@ -38,51 +38,121 @@
       "type": "array",
       "minItems": 8,
       "maxItems": 8,
-      "items": {
-        "type": "object",
-        "required": [
-          "id",
-          "status",
-          "reason_code",
-          "evidence"
-        ],
-        "additionalProperties": false,
-        "properties": {
-          "id": {
-            "enum": [
-              "J1",
-              "J2",
-              "J3",
-              "J4",
-              "J5",
-              "J6",
-              "J7",
-              "J8"
-            ]
-          },
-          "status": {
-            "enum": [
-              "ESTABLISHED",
-              "ESTABLISHED_BOUNDED",
-              "NOT_ESTABLISHED",
-              "REFUTED",
-              "NOT_EVALUATED",
-              "NOT_APPLICABLE",
-              "INDETERMINATE"
-            ]
-          },
-          "reason_code": {
-            "type": "string",
-            "minLength": 1
-          },
-          "evidence": {
-            "type": "array",
-            "items": {
-              "type": "string"
+      "prefixItems": [
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/join_result"
+            },
+            {
+              "properties": {
+                "id": {
+                  "const": "J1"
+                }
+              }
             }
-          }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/join_result"
+            },
+            {
+              "properties": {
+                "id": {
+                  "const": "J2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/join_result"
+            },
+            {
+              "properties": {
+                "id": {
+                  "const": "J3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/join_result"
+            },
+            {
+              "properties": {
+                "id": {
+                  "const": "J4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/join_result"
+            },
+            {
+              "properties": {
+                "id": {
+                  "const": "J5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/join_result"
+            },
+            {
+              "properties": {
+                "id": {
+                  "const": "J6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/join_result"
+            },
+            {
+              "properties": {
+                "id": {
+                  "const": "J7"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/join_result"
+            },
+            {
+              "properties": {
+                "id": {
+                  "const": "J8"
+                }
+              }
+            }
+          ]
         }
-      }
+      ],
+      "items": false
     },
     "overall_status": {
       "enum": [
@@ -122,6 +192,53 @@
         "string",
         "null"
       ]
+    }
+  },
+  "$defs": {
+    "join_result": {
+      "type": "object",
+      "required": [
+        "id",
+        "status",
+        "reason_code",
+        "evidence"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "enum": [
+            "J1",
+            "J2",
+            "J3",
+            "J4",
+            "J5",
+            "J6",
+            "J7",
+            "J8"
+          ]
+        },
+        "status": {
+          "enum": [
+            "ESTABLISHED",
+            "ESTABLISHED_BOUNDED",
+            "NOT_ESTABLISHED",
+            "REFUTED",
+            "NOT_EVALUATED",
+            "NOT_APPLICABLE",
+            "INDETERMINATE"
+          ]
+        },
+        "reason_code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }
