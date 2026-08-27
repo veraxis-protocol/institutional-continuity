@@ -9,6 +9,8 @@ The format follows a human-readable versioned history rather than relying solely
 
 ## Unreleased
 
+## 0.1.0 - 2026-08-27
+
 ### Added
 
 - Initial repository bootstrap for Institutional Continuity Infrastructure.

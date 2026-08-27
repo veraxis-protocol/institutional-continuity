@@ -8,7 +8,7 @@ authors:
 repository-code: "https://github.com/veraxis-protocol/institutional-continuity"
 url: "https://veraxis.io"
 license-url: "https://github.com/veraxis-protocol/institutional-continuity/blob/main/LICENSE.md"
-version: "0.1.0-pre"
+version: "0.1.0"
 date-released: "2026-08-27"
 keywords:
   - institutional continuity
