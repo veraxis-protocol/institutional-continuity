@@ -10,6 +10,7 @@
 [![Status: PRE-1.0](https://img.shields.io/badge/status-PRE--1.0-orange)](STATUS.md)
 [![Category: ICI](https://img.shields.io/badge/category-Institutional%20Continuity%20Infrastructure-blue)](spec/CATEGORY-CONSTITUTION.md)
 [![Benchmark: ICTS](https://img.shields.io/badge/benchmark-ICTS-informational)](benchmark/README.md)
+[![Research paper DOI: 10.5281/zenodo.22135315](https://zenodo.org/badge/DOI/10.5281/zenodo.22135315.svg)](https://doi.org/10.5281/zenodo.22135315)
 [![Docs: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey)](LICENSE.md)
 
 **Agent authorization is necessary. It is not sufficient.**
@@ -36,6 +37,16 @@ The public claim ceiling is deliberately strict:
 - a benchmark PASS establishes only the scope actually tested.
 
 See [CLAIMS.md](CLAIMS.md) and [STATUS.md](STATUS.md).
+
+## Research paper
+
+The formal research paper for the Institutional Continuity Infrastructure model is now publicly archived:
+
+**Arkadiy Miteiko (2026). _Institutional Continuity Infrastructure: A Formal Model from Governing Meaning to Provable Machine Consequence_. Zenodo. DOI: [10.5281/zenodo.22135315](https://doi.org/10.5281/zenodo.22135315).**
+
+The paper formalizes the nine-node continuity chain and eight joins, three distinct authority planes, a non-compensatory join-status algebra, exact-action binding, independent consequence coverage, append-only correction, and the specified-but-not-yet externally measured Institutional Continuity Test Suite methodology.
+
+> **Identity boundary:** the DOI above identifies the research paper/preprint. It does **not** replace the canonical byte identity of the ICI source release. Source identity remains anchored to the signed Git tag/commit and the canonical release-asset digests.
 
 ## The continuity problem
 
@@ -237,7 +248,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Citation
 
-Until a release DOI is assigned, cite the repository and the exact Git tag/commit used. See [CITATION.cff](CITATION.cff).
+For the formal research paper, cite:
+
+> Miteiko, A. (2026). _Institutional Continuity Infrastructure: A Formal Model from Governing Meaning to Provable Machine Consequence_. Zenodo. https://doi.org/10.5281/zenodo.22135315
+
+For architecture, benchmark, schema, implementation, or release claims, also cite the exact repository release/tag/commit used. The paper DOI is the scholarly publication identity; the signed Git release remains the canonical source identity. See [CITATION.cff](CITATION.cff).
 
 ## Security
 
