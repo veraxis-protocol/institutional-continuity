@@ -19,7 +19,8 @@ A good contribution makes the system:
 
 Read:
 
-1. `spec/CATEGORY-CONSTITUTION.md`
+1. `spec/ICI-ARCHITECTURE-CONSTITUTION-v0.2.md` (current; supersedes
+   `spec/CATEGORY-CONSTITUTION.md`, which is preserved as historical normative evidence)
 2. `CLAIMS.md`
 3. `GOVERNANCE.md`
 4. `spec/CHANGE-CONTROL.md`
