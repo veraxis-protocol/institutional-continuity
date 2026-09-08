@@ -62,12 +62,19 @@ These are recorded rather than fixed, each for a stated reason.
    `LICENSE.md`; only `LICENSE` exists. Unrelated to category positioning and outside this work
    order's bounded documentation scope, so not fixed. Expect the veip-spec PR to inherit that
    failure.
-4. **`veip-registry` README ends mid-sentence.** The "Relationship to veip-spec" section reads
+4. **`Veraxis-Memory-Admissibility-Management-MAM-` CI is red on `main`, pre-existing.** A
+   toolchain mismatch: `go.mod` declares `go 1.22` while `.github/workflows/go.yml` pins
+   `go-version: '1.20'`, so the `build` job fails with `cannot compile Go 1.22 code` on every push
+   and pull request regardless of content. Locally, with Go 1.24.7, `go build ./...` and
+   `go test ./...` both pass. The fix is a one-line workflow bump, which is a CI/toolchain change
+   rather than category positioning and therefore outside this work order's scope. Not fixed here.
+
+5. **`veip-registry` README ends mid-sentence.** The "Relationship to veip-spec" section reads
    "The canonical Evidence Pack schema originates in:" with nothing following. Pre-existing and
    unrelated to category positioning; not fixed.
-5. **`white-papers` v1.2 PDF has not been assessed against the thesis.** Binary released artifact;
+6. **`white-papers` v1.2 PDF has not been assessed against the thesis.** Binary released artifact;
    assessing and, if needed, correcting it belongs to a successor paper version, not to this work
    order.
-6. **Component names `VICCP`, `ZTL`, `RegSpine`, `CAGE` and `OAM`** appear in the ICI README's
+7. **Component names `VICCP`, `ZTL`, `RegSpine`, `CAGE` and `OAM`** appear in the ICI README's
    reference-primitive table but have no reachable repository in this account. Their public
    surfaces, if any exist elsewhere, were not censused.
