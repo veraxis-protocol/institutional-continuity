@@ -228,8 +228,24 @@ exists to prevent.
 
 ## 9. Terminology distinctions
 
+### Abbreviation rule: "OIC" is the compiler, never the field
+
+The field is **Open Institutional Computation**. The component is the **Open Institutional
+Compiler**. Only the component is abbreviated.
+
+- Write the field out in full. Never abbreviate it to "OIC".
+- "OIC", unqualified, always means the Open Institutional Compiler.
+- On first use in any public artifact, expand the component: "OIC — Open Institutional Compiler".
+
+This rule exists because independent evaluators reading Veraxis surfaces in isolation reported the
+two senses collapsing — one recorded "Two senses appear", another that "the acronym is also used
+for the category name". A reader who cannot tell the field from the component cannot place the
+component within it, which defeats the purpose of fixing the category at all.
+
 | Term | Meaning |
 |---|---|
+| **Open Institutional Computation** | The field. Never abbreviated. |
+| **OIC** | Always the Open Institutional Compiler, the upstream component. Never the field. |
 | **Policy** | Human/institutional statement of intended governance. |
 | **Institutional authority** | Externally constituted entitlement by which a person, office, source, rule, delegation, or institutional process may govern a consequence. |
 | **Admission** | Institutional act accepting bounded meaning/control for a stated scope/use. |
