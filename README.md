@@ -9,7 +9,7 @@
 
 [![Status: PRE-1.0](https://img.shields.io/badge/status-PRE--1.0-orange)](STATUS.md)
 [![Field: Open Institutional Computation](https://img.shields.io/badge/field-Open%20Institutional%20Computation-5b2d8e)](THESIS.md)
-[![Architecture: ICI](https://img.shields.io/badge/architecture-Institutional%20Continuity%20Infrastructure-blue)](spec/CATEGORY-CONSTITUTION.md)
+[![Architecture: ICI](https://img.shields.io/badge/architecture-Institutional%20Continuity%20Infrastructure-blue)](spec/ICI-ARCHITECTURE-CONSTITUTION-v0.2.md)
 [![Benchmark: ICTS](https://img.shields.io/badge/benchmark-ICTS-informational)](benchmark/README.md)
 [![Research paper DOI: 10.5281/zenodo.22135315](https://zenodo.org/badge/DOI/10.5281/zenodo.22135315.svg)](https://doi.org/10.5281/zenodo.22135315)
 [![Docs: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey)](LICENSE.md)
@@ -25,7 +25,9 @@ The field's central missing computation is **institutional authority computation
 
 Within that field, [OIC](https://github.com/veraxis-protocol/Institutional-Compiler) is the upstream institutional-compilation component, [VEIP](https://github.com/veraxis-protocol/veip-spec) is the downstream execution-integrity boundary, enforcement runtimes are consumers, and an Evidence Pack is a downstream artifact rather than a source of authority.
 
-**Canonical category thesis:** [THESIS.md](THESIS.md) — the owner-authorized controlling source for Veraxis category positioning. This repository keeps its own scope, status, invariants and claim ceilings; only its architectural role is inherited.
+**Canonical category thesis:** [THESIS.md](THESIS.md) — the owner-authorized controlling source for Veraxis category positioning.
+
+The current normative statement of the ICI architecture is [spec/ICI-ARCHITECTURE-CONSTITUTION-v0.2.md](spec/ICI-ARCHITECTURE-CONSTITUTION-v0.2.md). It supersedes `spec/CATEGORY-CONSTITUTION.md` on the category relationship only; the canonical chain, joins, non-collapse rules, falsifiability and implementation neutrality are carried forward unchanged, and the predecessor is preserved as historical normative evidence. This repository keeps its own scope, status, invariants and claim ceilings; only its architectural role is inherited.
 
 ---
 

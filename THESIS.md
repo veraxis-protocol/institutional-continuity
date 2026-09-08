@@ -147,9 +147,10 @@ It records or proves the relationship among:
 
 An Evidence Pack is **not** the category. It is **not** VEIP itself. It does
 **not** create institutional authority. A cryptographically valid Evidence Pack
-proves the integrity of what it records; it does not, by itself, establish that
-the upstream institutional authority it references was legitimate, correctly
-interpreted, properly admitted, or currently applicable.
+establishes only the bounded cryptographic and structural integrity properties
+actually verified under the applicable schema/profile. It does not by itself
+establish truth, completeness, institutional validity, correct upstream
+interpretation, consequence occurrence, or observation coverage.
 
 Normative schema terminology is preserved as published. Where a specification
 says "Evidence Pack," it is not renamed to "AEP" for messaging purposes.
@@ -176,6 +177,54 @@ continuity claim can be falsified.
 
 ICI is a reference end-to-end continuity architecture within the broader field of
 Open Institutional Computation. It is not a competing parent category.
+
+## 8a. Reference primitive roles
+
+This section exists so that fixing the category does not silently redefine or erase
+components that already exist. Each entry states an architectural role only. None is
+a capability, maturity or readiness claim; each component's own repository governs
+what may be claimed about it.
+
+**OIC — Open Institutional Compiler.**
+Upstream institutional compilation: source-grounded candidate meaning → explicit
+uncertainty → authorized institutional admission → machine-operational control state.
+
+**ZTL — Zero-Trust Logic.**
+Bounded logical warrant: tests what conclusions follow from admitted grounds without
+silently converting absence, uncertainty, provenance, or external authority into facts
+that have not been established.
+
+**VEIP — Veraxis Execution Integrity Protocol.**
+Execution-integrity/interoperability boundary: binds and preserves applicable
+machine-operational authority/control and warrant state to exact proposed actions and
+runtime transitions, producing verifiable downstream evidence.
+
+**OAM.**
+OAM is an existing Veraxis reference primitive whose exact canonical role is subject to
+the OAM role-reconciliation record. No component README may infer a new OAM role from
+this thesis.
+
+See [OAM-ROLE-RECONCILIATION.md](OAM-ROLE-RECONCILIATION.md). That census found a
+material conflict between two published surfaces — one defining OAM as a standing and
+examination workflow, another as constraining operational authority — and it is
+recorded for owner decision rather than resolved by editorial preference.
+
+**ICI — Institutional Continuity Infrastructure.**
+End-to-end continuity architecture and falsification/examination framework within Open
+Institutional Computation.
+
+**AuthContract.**
+Developer-facing reference artifact and control boundary where applicable. It is not a
+parent category and does not create institutional authority.
+
+**Runtime Admissibility.**
+Research and runtime-currentness primitive where applicable. It is not a parent
+category.
+
+Primitives named on other Veraxis surfaces but without a reachable repository in the
+censused set — including VICCP, RegSpine and CAGE — are deliberately not assigned roles
+here. Assigning one from an unreachable surface would be the same defect this record
+exists to prevent.
 
 ## 9. Terminology distinctions
 
