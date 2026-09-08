@@ -199,15 +199,17 @@ Execution-integrity/interoperability boundary: binds and preserves applicable
 machine-operational authority/control and warrant state to exact proposed actions and
 runtime transitions, producing verifiable downstream evidence.
 
-**OAM.**
-OAM is an existing Veraxis reference primitive whose exact canonical role is subject to
-the OAM role-reconciliation record. No component README may infer a new OAM role from
-this thesis.
+**OAM — Open Audit Mission.**
+Examination and audit-authority workflow: governs entitled examination of continuity
+evidence, human/institutional disposition, replay, correction, and whether examined
+results are fit for later institutional reliance.
 
-See [OAM-ROLE-RECONCILIATION.md](OAM-ROLE-RECONCILIATION.md). That census found a
-material conflict between two published surfaces — one defining OAM as a standing and
-examination workflow, another as constraining operational authority — and it is
-recorded for owner decision rather than resolved by editorial preference.
+OAM does not originate institutional authority and does not authorize exact runtime
+execution.
+
+Canonicalized by owner disposition on 2026-09-08, resolving the conflict recorded in
+[OAM-ROLE-RECONCILIATION.md](OAM-ROLE-RECONCILIATION.md). The canonical public home for
+the definition is `veraxis-protocol/Open-Audit-Mission`.
 
 **ICI — Institutional Continuity Infrastructure.**
 End-to-end continuity architecture and falsification/examination framework within Open

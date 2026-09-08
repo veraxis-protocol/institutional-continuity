@@ -5,7 +5,7 @@
 
 **Work order:** CAT-ALIGN-001B
 **Date:** 2026-09-08
-**Status:** CONFLICT FOUND — OWNER AUTHORIZATION REQUIRED
+**Status:** RESOLVED BY OWNER DISPOSITION, 2026-09-08
 **Controlling source:** [THESIS.md](THESIS.md) — Veraxis Category Thesis v1.0
 
 ## Why this record exists
@@ -109,11 +109,47 @@ Definition 4's gate usage does not settle it. Audit gates that a candidate must 
 constraining, which leans toward definition 2, while the naming and the audit vocabulary lean
 toward definition 1.
 
+## Owner disposition — 2026-09-08, AUTHORIZED
+
+The owner adopted the examination-side reading, with explicit exclusions.
+
+> **OAM = Open Audit Mission.** OAM is the examination and audit-authority workflow within
+> Open Institutional Computation. OAM governs the bounded process by which an entitled
+> human/institutional examiner may inspect continuity evidence, evaluate findings, record
+> disposition, preserve replay/correction history, and determine whether the result of an
+> examination is fit for later institutional reliance.
+
+OAM does **not**: originate institutional authority; interpret or compile governing policy;
+perform institutional admission; determine the logical warrant owned by ZTL; authorize an exact
+runtime action; replace VEIP's execution-integrity boundary; or collapse evidentiary authority
+into causal/runtime authority.
+
+OAM may affect whether an institution subsequently relies on, accepts, corrects, escalates or
+rejects an examined result. That is examination and evidentiary authority, not runtime causal
+authority — which keeps OAM on one side of the authority-planes non-collapse rule rather than
+straddling it.
+
+### Consequent actions
+
+| Open question from the census | Owner disposition |
+|---|---|
+| Which role does OAM carry? | The examination-side role, with the exclusions above. |
+| Should `Open-Audit-Mission` be the canonical home? | **Yes.** A minimal bounded README only; no invented implementation status. |
+| Do the `OAM-GATE-*` identifiers imply a control function? | **No.** They are audit/examination gates over evidence, review, disposition, release or institutional reliance. They are not evidence that OAM owns runtime authorization. Historical identifiers are not renamed. |
+| Who corrects the OIC admission contract, and under what record? | A successor or erratum in `Institutional-Compiler`, under that repository's own governance. The preregistered predecessor is not edited in place. |
+
+The corrected statement, per the owner:
+
+> ZTL may constrain what is logically warranted for downstream reliance. VEIP/runtime
+> enforcement may constrain whether an exact action may execute. OAM governs examination/audit
+> disposition and may constrain later institutional reliance on examined results; OAM does not
+> authorize exact runtime execution.
+
 ## Recommended canonical role
 
-**Recommendation: definition 1 — the examination-side role — with an explicit exclusion.**
+**Recommendation: definition 1 — the examination-side role — with an explicit exclusion.** This was the recommendation put to the owner, and it was adopted; the authoritative wording is the owner disposition above.
 
-Proposed wording, for owner approval and not adopted anywhere yet:
+Wording as originally proposed:
 
 > **OAM — Open Audit Mission.** Standing and examination workflow: who is entitled to examine a
 > continuity claim, and the process by which that examination is conducted and recorded. OAM does
